@@ -49,17 +49,18 @@ def jalan(z):
 ##### LOGO #####
 logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
+|__(~)    •||•THE - harry -OFFICAL------•◈•
+|__\~~) •||• - unusual hacekr ---------------•◈•
 |__(-----\  •◈•------BLACK-TIGER--------•◈•
 |__~~~\ •◈•-----█-------⑦-------█------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
 |__~~~\ •◈•-----█-------⑥-------█------•◈•
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92 haroon
+
+\033[1;96mInstagram \033[1;93m: \033[1;Flow Haroonahmad1810 
+\033[1;96mFacebook  \033[1;93m: \033[1; https://www.facebook.com/haroon.meenak
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/haroonahmad1810/haroon
 \033[1;91m======================================="""
 
 def tik():
@@ -80,15 +81,15 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92 haroon
+\033[1;96mInstagram \033[1;93m: \033[1;92 unusual hacker
+\033[1;96mFacebook  \033[1;93m: \033[1;92m haroonahmad__offical
+\033[1;96mGithub \033[1;93m: \033[1;92https://github.com/haroonahmad1810/haroon
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "haroon"
+CorrectPassword = "meenak"
 
 loop = 'true'
 while (loop == 'true'):
@@ -100,10 +101,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open 
     else:
-        print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        print "Wrong Username
+        os.system('xdg-open
 
 def login():
 	os.system('clear')
@@ -126,8 +127,7 @@ def login():
 		br._factory.is_html = True
 		br.select_form(nr=0)
 		br.form['email'] = id
-		br.form['pass'] = pwd
-		br.submit()
+		   br.submit()
 		url = br.geturl()
 		if 'save-device' in url:
 			try:
